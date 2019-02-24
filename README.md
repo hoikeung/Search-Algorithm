@@ -9,6 +9,7 @@ a could be: bfs dfs ast ida
 b is a list containing value 0-8
 
 Example
+
 to run the program using A* with this matrix
 
 0 2 5
@@ -18,7 +19,9 @@ to run the program using A* with this matrix
 6 7 8
 
 run:
+
 python search.py ast 0,2,5,3,4,1,6,7,8
+
 The program will move 0 around and save the result in output.txt
 
 THe program will keep runing even if there is no solution of the matrix
